@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abortion Right</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-size: large;" class="dark"><a href="#home">Abortion Rights</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#action">Action</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <a href="https://replit.com/@ZhaoyiLuo1/womenabortion#index.html" target="_blank"><button>Replit code</button></a>
+    </header>
+    <div id="alert">
+        <h1>Warning</h1>
+        <p style="margin-top: 20px;">This website is still work-in-progress, everything is about to change. We won't ask for your information or use it.</p>
+        <p style="margin-top:10px; margin-bottom:40px;">Do you still want to  navigate this website?</p>
+        <button onclick="go()" style="padding: 10px 20px;margin-right:50px;">Yup</button>
+        <a href="http://google.com"><button onclick="close()" style="padding: 10px 20px;">Nah</button></a>
+    </div>
+    <div id="bg"></div>
+    <section id="home">
+        <div style="height: 100vh; width: 100vw;" class="video-wrapper">
+            <video playsinline autoplay muted loop poster="cake.jpg">
+                <source src="assets/homepage.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="hometext">
+                <h1 class="dark" style="text-align:center;font-size: 10vw;">Abortion rights <br>are the freedom of women's life</h1>
+            </div>
+        </div>
+        <div class="white">
+
+        </div>
+    </section>
+    <section id="action">
+        <div class="container reveal" style="background-color:#f2e9eb; align-items: center;text-align: center;">
+            <div style="padding-top: 50px; padding-bottom: 20px;"><img src="https://images.unsplash.com/photo-1633295970073-d4a951db63f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="people in front of the white house supporting abortion"></div>
+            <h1 style="margin-bottom: 20px;">Fact Generator</h1>
+            <p style="margin-bottom: 20px; ">Click the button below to see facts about this issue</p>
+            <div style="width: 70vw;margin: 0 auto;padding-top: 20px; padding-bottom: 20px;">
+                <p id="facts"></p>
+                <p id="credit"></p>
+            </div>
+            <button style="margin-top: 20px;" onclick="generate()">Click me</button>
+            
+        </div>
+    </section>
+    <section id="about">
+        <div class="container reveal" style="background-color:#fedd89;">
+            <h1 class="dark" style="padding-bottom: 20px;">You are much more important than you think</h1>
+            <h4 class="dark">Join these organization and take action</h4>
+            <div>
+                <ul id="organism">
+                    <li><a href="https://www.prochoiceamerica.org/fight-back-for-our-freedom/" target="_blank">NARAL Pro-Choice America</a></li>
+                    <li><a href="https://www.pathfinder.org/takeaction" target="_blank">Pathfinder International</a></li>
+                    <li><a href="https://prochoice.org/" target="_blank">National Abortion Federation</a></li>
+                    <li><a href="https://reproductiverights.org/" target="_blank">Center For Rreroductive Rights</a></li>
+                    <li><a href="https://nwlc.org/" target="_blank">National Women's Law Center</a></li>
+                    <li><a href="https://abortioncarenetwork.org/" target="_blank">Abortion Care Network</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>@Judy Luo all copyright reserved</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
